@@ -1,0 +1,111 @@
+.login {
+    float: none !important; /* To prevent this value from being overwritten by bootstrap */
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.login .input-group {
+    padding: 10px;
+}
+
+.login form {
+    padding: 20px;
+}
+
+.login .text-center button {
+    margin-top: 10px;
+}
+
+.login .input-group-addon {
+    min-width: 150px;
+    text-align: left;
+}
+
+.vtooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.vtooltip .vtooltiptext {
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    top: -5px;
+    left: 105%;
+    position: absolute;
+    z-index: 5;
+}
+
+.vtooltip .vtooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+
+.link-pointer {
+    cursor: pointer;
+}
+
+
+.angular-google-map-container { height: 400px; }
+
+.navbar-default {
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    min-height: 100px;
+}
+
+.navbar-brand {
+    font-size: 36px !important;
+}
+
+.navbar-brand span {
+    color: #9CBC7C;
+}
+
+.active-li > a {
+    color: #9CBC7C !important;
+}
+
+.blog-li img {
+    position: relative;
+    top: -35px;
+    right: 10px;
+}
+
+.messageText {
+    width: 100%;
+    height: 15rem;
+}
+
+@media screen and (max-width: 400px) {
+
+    .vtooltip .vtooltiptext {
+        width: 120px;
+        top: 100%;
+        left: 50%;
+        margin-left: -60px;
+    }
+    .vtooltip .vtooltiptext::after {
+        content: " ";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent black transparent;
+    }
+    .login-text {
+        color: red;
+        padding-top: 5px;
+    }
+}
